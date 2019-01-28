@@ -63,7 +63,7 @@
                                 <!-- page title -->		
                                 <div class="container">
                                     <div class="page-title no-border">
-                                        <h2>Project tile</h2>
+                                        <h2><?php print_r($data->contact_id->full_name) ?></h2>
                                         <h3><span>All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true</span></h3>
                                     </div>
                                 </div>
@@ -98,7 +98,7 @@
                                         <div class="gallery-item   interior industrial">
                                             <div class="grid-item-holder">
                                                 <div class="box-item">
-                                                    <a href="/resources/images/folio/thumbs/1jpg">
+                                                    <a href="/resources/images/folio/thumbs/1.jpg">
                                                     <span class="overlay"></span> 
                                                     <img  src="/resources/images/folio/thumbs/1.jpg"   alt="">
                                                     </a>

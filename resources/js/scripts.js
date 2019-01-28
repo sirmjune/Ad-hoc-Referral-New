@@ -484,7 +484,7 @@ function contanimhide() {
 }
 // share ------------------
 $(".shareSelector").socialShare({
-    social: "facebook,twitter,google,tumblr",
+    social: "facebook,twitter,instagram",
     whenSelect: true,
     selectContainer: ".shareSelector",
     blur: false

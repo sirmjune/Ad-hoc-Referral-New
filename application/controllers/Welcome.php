@@ -1,4 +1,7 @@
 <?php
+
+use Curl\Curl;
+
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Welcome extends CI_Controller {
@@ -36,10 +39,35 @@ class Welcome extends CI_Controller {
     }
     public function health_centers()
     {
-        $this->load->view('health_centers.html');
+        $curl = new Curl();
+        $curl->setHeader('Content-type', 'application/json');
+        $curl->setOpt(CURLOPT_SSL_VERIFYPEER, FALSE);
+        $curl->setOpt(CURLOPT_SSL_VERIFYHOST, FALSE);
+        $curl->get('https://ad-hoc-referral.com/api/healthcentre/');
+
+        if ($curl->error) {
+            echo $curl->getErrorMessage();
+        }
+        else {
+            $data['data'] = json_decode($curl->response);
+            $this->load->view('health_centers', $data);
+        }
     }
     public function location1()
     {
-        $this->load->view('location1.html');
+        $id = $_GET['id'];
+        $curl = new Curl();
+        $curl->setHeader('Content-type', 'application/json');
+        $curl->setOpt(CURLOPT_SSL_VERIFYPEER, FALSE);
+        $curl->setOpt(CURLOPT_SSL_VERIFYHOST, FALSE);
+        $curl->get('https://ad-hoc-referral.com/api/healthcentre/'.$id);
+        if ($curl->error) {
+            echo $curl->getErrorMessage();
+        }
+        else {
+            $data['data'] = json_decode($curl->response);
+            $this->load->view('location1', $data);
+        }
+
     }
 }
