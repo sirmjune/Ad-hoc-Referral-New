@@ -3,7 +3,7 @@
     <head>
         <!--=============== basic  ===============-->
         <meta charset="UTF-8">
-        <title>Domik  - Responsive  Architecture Template</title>
+        <title>Health Center - Location</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
         <meta name="robots" content="index, follow"/>
         <meta name="keywords" content=""/>
@@ -55,7 +55,7 @@
             <div id="wrapper">
                 <div class="content-holder elem scale-bg2 transition3" >
                     <div class="content">
-                        <!-- background animation  -->		
+                        <!-- background animation  -->
                         <div class="bg-animate"><img src="/resources/images/body-bg.png"  class="respimg" alt=""></div>
                         <!-- wrapper inner -->	
                         <div class="wrapper-inner">
@@ -73,15 +73,18 @@
                                 <section>
                                     <div class="gallery-items three-coulms grid-small-pad popup-gallery">
                                         <!-- 1 -->
-                                        <div class="gallery-item houses">
-                                            <div class="grid-item-holder">
-                                                <div class="box-item">
-                                                    <a href="/resources/images/folio/thumbs/1.jpg" title="Image information">
-                                                    <span class="overlay"></span> 
-                                                    <img  src="/resources/images/folio/thumbs/1.jpg" alt="">
-                                                    </a>
+                                        <div class="row img-slide-con">
+                                            <div class="col-md-6 sli-one" style="padding: 15px">
+                                                <div class="card text-left">
+                                                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3989.7488701144043!2d32.5739425!3d0.3380637!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x177dbb0f51509de1%3A0xea12334542674d8c!2sNew+Mulago+Hospital!5e0!3m2!1sen!2sug!4v1544510300764" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">New Mulago Hospital</h5>
+                                                        <p class="card-text">location</p>
+
+                                                    </div>
                                                 </div>
                                             </div>
+
                                         </div>
                                         <!-- 2 -->
                                         <div class="gallery-item   interior industrial">
@@ -184,7 +187,7 @@
                         <!-- wrapper inner end   -->
                         <!-- parallax column   -->
                         <div class="img-wrap">
-                            <div class="bg" style="background-image: url(images/bg/long/1.jpg)"  data-top-bottom="transform: translateY(300px);" data-bottom-top="transform: translateY(-300px);"></div>
+                            <div class="bg" style="background-image: url(/resources/images/bg/long/1.jpg)"  data-top-bottom="transform: translateY(300px);" data-bottom-top="transform: translateY(-300px);"></div>
                         </div>
                         <!-- parallax column end   -->
                         <!--to top    -->

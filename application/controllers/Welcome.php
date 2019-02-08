@@ -1,5 +1,6 @@
 <?php
 
+
 use Curl\Curl;
 
 defined('BASEPATH') OR exit('No direct script access allowed');
@@ -23,19 +24,19 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('index.html');
+		$this->load->view('index');
 	}
     public function about()
     {
-        $this->load->view('about.html');
+        $this->load->view('about');
     }
     public function ad_med()
     {
-        $this->load->view('ad-med.html');
+        $this->load->view('ad-med');
     }
     public function contact()
     {
-        $this->load->view('contact.html');
+        $this->load->view('contact');
     }
     public function health_centers()
     {
@@ -53,7 +54,7 @@ class Welcome extends CI_Controller {
             $this->load->view('health_centers', $data);
         }
     }
-    public function location1()
+    public function location()
     {
         $id = $_GET['id'];
         $curl = new Curl();
@@ -66,7 +67,7 @@ class Welcome extends CI_Controller {
         }
         else {
             $data['data'] = json_decode($curl->response);
-            $this->load->view('location1', $data);
+            $this->load->view('location', $data);
         }
 
     }

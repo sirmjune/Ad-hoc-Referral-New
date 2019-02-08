@@ -75,7 +75,7 @@
                                             <div class="col-md-3">
                                                 <h4>Office in Kampala</h4>
                                                 <ul>
-                                                    <li><a href="#">27th Brooklyn New York, NY 10065</a></li>
+                                                    <li><a href="#">Tusky's Building Level 2, <br/>Plot 1615, Kira Road,<br/> Ntinda - Kampala, Central Region.<br/>P.O.Box 2063 Kampala (U)</a></li>
                                                     <li><a href="#">+256 (706) 414 199</a></li>
                                                     <li><a href="#">services@ad-hoc-referral.com</a></li>
                                                 </ul>
@@ -83,9 +83,9 @@
                                             <div class="col-md-3">
                                                 <h4>Find Us On : </h4>
                                                 <ul>
-                                                    <li><a href="#">Facebook</a></li>
-                                                    <li><a href="#">Twitter </a></li>
-                                                    <li><a href="#">Instagram</a></li>
+                                                    <li><a href="http://www.facebook.com/adhocreferral">Facebook</a></li>
+                                                    <li><a href="https://twitter.com/adhocreferral">Twitter </a></li>
+                                                    <li><a href="https://www.instagram.com/adhocreferral/?hl=en">Instagram</a></li>
                                                 </ul>
                                             </div>
                                         </div>

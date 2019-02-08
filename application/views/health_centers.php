@@ -74,13 +74,13 @@
                                 <div class="gallery-item houses">
                                     <div class="grid-item-holder">
                                         <div class="box-item">
-                                            <a href="/location1?id=<?php echo $center->id; ?>" class="ajax">
+                                            <a href="/location?id=<?php echo $center->id; ?>" class="ajax">
                                                 <span class="overlay"></span>
-                                                <img src="/resources/images/folio/thumbs/<?php echo strtolower($center->contact_id->full_name).".jpg" ?>" alt="">
+                                                <img src="/resources/images/health%20centers/<?php echo strtolower($center->contact_id->full_name).".jpg" ?>" alt="">
                                             </a>
                                         </div>
                                         <div class="grid-item ">
-                                            <h3><a href="/location1" class="ajax portfolio-link"><?php echo $center->contact_id->full_name; ?></a>
+                                            <h3><a href="/location" class="ajax portfolio-link"><?php echo $center->contact_id->full_name; ?></a>
                                             </h3>
                                             <span>wandegeya, kampala</span>
                                         </div>

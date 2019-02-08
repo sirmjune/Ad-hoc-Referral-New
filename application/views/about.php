@@ -87,11 +87,11 @@ services through the Ad-Hoc Web site and the Ad-Hoc Application platforms. </spa
                                                 </div>
                                                 <!-- 2 -->
                                                 <div class="item">
-                                                    <img src="/resources/images/folio/slider/1.jpg" class="respimg" alt="">
+                                                    <img src="/resources/images/folio/slider/referral.jpg" class="respimg" alt="">
                                                 </div>
                                                 <!-- 3 -->
                                                 <div class="item">
-                                                    <img src="/resources/images/folio/slider/1.jpg" class="respimg" alt="">
+                                                    <img src="/resources/images/folio/slider/group.jpg" class="respimg" alt="">
                                                 </div>
                                             </div>
                                         </div>
@@ -103,19 +103,19 @@ services through the Ad-Hoc Web site and the Ad-Hoc Application platforms. </spa
                                         <div class="col-md-8">
                                            <h2> VISION</h2>
 
-                                            <p>  To become the region’s best referral platform aiding and accessing clients to the best medical and other professional support across the East African Region and the World, bridging businesses for a profit.</p>
+                                            <p style="text-align: center">  To become the region’s best referral platform aiding and accessing clients to the best medical and other professional support across the East African Region and the World, bridging businesses for a profit.</p>
                                             <br/><br/>
                                             <h2> MISSION STATEMENT</h2>
 
-                                            <p> To provide the most effective, readily and easily usable platforms to clients to access professional support across a wide range of professions.</p>
+                                            <p style="text-align: center"> To provide the most effective, readily and easily usable platforms to clients to access professional support across a wide range of professions.</p>
                                             <br/><br/>
                                             <h2>CORE VALUES</h2>
-                                            <p>
+                                            <p style="text-align: center">
                                             • Integrity (Zero Tolerance)
                                             • Goal Commonality.
-                                            • Team Work.<br/>
+                                            • Team Work.
                                             • Transparency.
-                                            • Accountability.
+                                            • Accountability. <br/>
                                             • Empathy.
                                             • Respect.
                                             • Trust.
@@ -239,7 +239,7 @@ services through the Ad-Hoc Web site and the Ad-Hoc Application platforms. </spa
                                                 <div class="services-info">
                                                     <h4>We help Professionals find clients</h4>
 
-                                                       <p> Are you a professional doctor looking for patients? Here at at Ad-Hoc we help you get clients easily and quickly in just a few steps. simply register using or platforms and we get you started. </p>
+                                                       <p> Are you a professional doctor looking for patients? Here at Ad-Hoc we help you get clients easily and quickly in just a few steps. simply register using our platforms and we get you started. </p>
 
 
                                                 </div>
@@ -256,7 +256,7 @@ services through the Ad-Hoc Web site and the Ad-Hoc Application platforms. </spa
                                                 </div>
                                                 <div class="services-info">
                                                     <h4>We help clients find professionals</h4>
-                                                    <p>Ad-Hoc referral platforms enables patients(clients) to find professional doctors to help them with their health needs. Register with us as a patient and get to access all the benefits of our clients, get to set appointments with a doctor of your choice and alot more.</p>
+                                                    <p>Ad-Hoc referral platforms enables patients to find professional doctors to help them with their health needs. Register with us as a patient and get to access all the benefits of our clients.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -271,7 +271,7 @@ services through the Ad-Hoc Web site and the Ad-Hoc Application platforms. </spa
                                                 </div>
                                                 <div class="services-info">
                                                     <h4>Decongest hospitals</h4>
-                                                    <p>Decongesting of major private Hospitals by their clients using the Ad-Hoc-Referral website and the Ad-Hoc-Referral Mobile Application platforms to easily and affordably schedule bookings and appointments to their respective or preferred professional physicians within their preferred hospitals. </p>
+                                                    <p>Decongesting of major Hospitals by their clients using the Ad-Hoc-Referral website and the Ad-Hoc-Referral Mobile Application platforms to easily and affordably schedule bookings and appointments to their preferred professional physicians within their preferred hospitals. </p>
                                                 </div>
                                             </div>
                                         </div>
