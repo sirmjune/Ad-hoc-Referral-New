@@ -72,31 +72,9 @@ services through the Ad-Hoc Web site and the Ad-Hoc Application platforms. </spa
                                     </div>
                                 </div>
                             </section>
+
                             <div class="container">
-                                <section class="no-border">
-                                    <div class="full-width-holder">
-                                        <div class="fullwidth-slider-holder">
-                                            <div class="customNavigation">
-                                                <a class="next-slide transition"><i class="fa fa-long-arrow-right"></i></a>
-                                                <a class="prev-slide transition"><i class="fa fa-long-arrow-left"></i></a>
-                                            </div>
-                                            <div class="full-width owl-carousel">
-                                                <!-- 1 -->
-                                                <div class="item">
-                                                    <img src="/resources/images/folio/slider/about.jpg" class="respimg" alt="">
-                                                </div>
-                                                <!-- 2 -->
-                                                <div class="item">
-                                                    <img src="/resources/images/folio/slider/referral.jpg" class="respimg" alt="">
-                                                </div>
-                                                <!-- 3 -->
-                                                <div class="item">
-                                                    <img src="/resources/images/folio/slider/group.jpg" class="respimg" alt="">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </section>
+
                                 <!-- full width slider end -->
                                 <section>
                                     <div class="row">
@@ -125,104 +103,6 @@ services through the Ad-Hoc Web site and the Ad-Hoc Application platforms. </spa
                                 </section>
                                 <!-- about text end -->
 
-
-                                <!-- story / resume   -->
-                                <section id="sec3" class="no-border">
-                                    <div class="section-title">
-                                        <h3>Our story</h3>
-                                    </div>
-                                    <div class="resume-holder">
-                                        <!-- 1 -->
-                                        <div class="resume-item">
-                                            <div class="resume-head">
-                                                <h3>2015</h3>
-                                            </div>
-                                            <div class="resume-box">
-                                                <div class="row">
-                                                    <div class="col-md-3"></div>
-                                                    <div class="col-md-9">
-                                                        <h5>Mauris non ligula suscipit</h5>
-                                                        <p>Vestibulum orci felis, ullamcorper non condimentum non, ultrices ac nunc. Mauris non ligula suscipit, vulputate mi accumsan, dapibus felis. Nullam sed sapien dui. Nulla auctor sit amet sem non porta. Integer iaculis tellus nulla, quis imperdiet magna venenatis vitae</p>
-                                                        <span class="show-hidden-info"></span>
-                                                        <div class="hidden-info">
-                                                            <ul class="inline-gallery popup-gallery">
-                                                                <li>
-                                                                    <div class="box-item">
-                                                                        <a href="/resources/images/folio/thumbs/1.jpg">
-                                                                        <span class="overlay"></span>
-                                                                        <img src="/resources/images/folio/thumbs/1.jpg" alt="" class="respimg">
-                                                                        </a>
-                                                                    </div>
-                                                                </li>
-                                                                <li>
-                                                                    <div class="box-item">
-                                                                        <a href="/resources/images/folio/thumbs/1.jpg">
-                                                                        <span class="overlay"></span>
-                                                                        <img src="/resources/images/folio/thumbs/1.jpg" alt="" class="respimg">
-                                                                        </a>
-                                                                    </div>
-                                                                </li>
-                                                                <li>
-                                                                    <div class="box-item">
-                                                                        <a href="/resources/images/folio/thumbs/1.jpg">
-                                                                        <span class="overlay"></span>
-                                                                        <img src="/resources/images/folio/thumbs/1.jpg" alt="" class="respimg">
-                                                                        </a>
-                                                                    </div>
-                                                                </li>
-                                                                <li>
-                                                                    <div class="box-item">
-                                                                        <a href="/resources/images/folio/thumbs/1.jpg">
-                                                                        <span class="overlay"></span>
-                                                                        <img src="/resources/images/folio/thumbs/1.jpg" alt="" class="respimg">
-                                                                        </a>
-                                                                    </div>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- 2 -->
-                                        <div class="resume-item">
-                                            <div class="resume-head">
-                                                <h3>2012</h3>
-                                            </div>
-                                            <div class="resume-box">
-                                                <div class="row">
-                                                    <div class="col-md-3"></div>
-                                                    <div class="col-md-9">
-                                                        <h5>Mauris non ligula suscipit</h5>
-                                                        <p>Vestibulum orci felis, ullamcorper non condimentum non, ultrices ac nunc. Mauris non ligula suscipit, vulputate mi accumsan, dapibus felis. Nullam sed sapien dui. Nulla auctor sit amet sem non porta. Integer iaculis tellus nulla, quis imperdiet magna venenatis vitae</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- 3 -->
-                                        <div class="resume-item">
-                                            <div class="resume-head">
-                                                <h3>2010</h3>
-                                            </div>
-                                            <div class="resume-box">
-                                                <div class="row">
-                                                    <div class="col-md-3"></div>
-                                                    <div class="col-md-9">
-                                                        <h5>Mauris non ligula suscipit</h5>
-                                                        <p>Vestibulum orci felis, ullamcorper non condimentum non, ultrices ac nunc. Mauris non ligula suscipit, vulputate mi accumsan, dapibus felis. Nullam sed sapien dui. Nulla auctor sit amet sem non porta. Integer iaculis tellus nulla, quis imperdiet magna venenatis vitae</p>
-                                                        <span class="show-hidden-info"></span>
-                                                        <div class="hidden-info">
-                                                            <div class="resp-video">
-                                                                <iframe src="//player.vimeo.com/video/24506451?color=000000&title=0&badge=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen ></iframe> 
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </section>
-                                <!-- resume / story end -->
                                 <!-- services  -->
                                 <section id="sec4">
                                     <div class="section-title">
@@ -282,7 +162,18 @@ services through the Ad-Hoc Web site and the Ad-Hoc Application platforms. </spa
                         <!-- wrapper inner end   -->
                         <!-- parallax column   -->
                         <div class="img-wrap">
-                            <div class="bg" style="background-image: url(/resources/images/bg/long/1.jpg)"  data-top-bottom="transform: translateY(300px);" data-bottom-top="transform: translateY(-300px);"></div>
+                            <div class="bg"  data-top-bottom="transform: translateY(300px);" data-bottom-top="transform: translateY(-300px);">
+
+                                <div class="col-md-6 sli-one" style="padding: 15px">
+                                    <div class="card text-left">
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3989.7488701144043!2d32.5739425!3d0.3380637!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x177dbb0f51509de1%3A0xea12334542674d8c!2sNew+Mulago+Hospital!5e0!3m2!1sen!2sug!4v1544510300764" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                                        <div class="card-body">
+                                            <p class="card-text">Our location</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <!-- parallax column end   -->
                         <!--to top    -->
