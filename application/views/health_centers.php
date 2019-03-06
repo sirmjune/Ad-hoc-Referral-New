@@ -71,7 +71,7 @@
                             <?php
                             foreach ($data as $center) {
                                 ?>
-                                <div class="gallery-item houses">
+                                <div style="color: " class="gallery-item houses">
                                     <div class="grid-item-holder">
                                         <div class="box-item">
                                             <a href="/location?id=<?php echo $center->id; ?>" class="ajax">
