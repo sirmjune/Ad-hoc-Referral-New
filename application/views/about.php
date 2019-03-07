@@ -166,7 +166,7 @@ services through the Ad-Hoc Web site and the Ad-Hoc Application platforms. </spa
 
                                 <div class="col-md-6 sli-one" style="padding: 15px">
                                     <div class="card text-left">
-                                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3989.7488701144043!2d32.5739425!3d0.3380637!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x177dbb0f51509de1%3A0xea12334542674d8c!2sNew+Mulago+Hospital!5e0!3m2!1sen!2sug!4v1544510300764" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3989.7488701144043!2d32.5739425!3d0.3380637!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x177dbb0f51509de1%3A0xea12334542674d8c!2sAd-Hoc-Referral!5e0!3m2!1sen!2sug!4v1544510300764" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
                                         <div class="card-body">
                                             <p class="card-text">Our location</p>
 
