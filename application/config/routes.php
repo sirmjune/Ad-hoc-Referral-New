@@ -56,4 +56,5 @@ $route['about'] = 'welcome/about';
 $route['ad_med'] = 'welcome/ad_med';
 $route['contact'] = 'welcome/contact';
 $route['health_centers'] = 'welcome/health_centers';
+$route['privacy'] = 'welcome/privacy';
 $route['location'] = 'welcome/location';

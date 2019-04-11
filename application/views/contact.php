@@ -90,6 +90,11 @@
                                             <li><a href="https://www.instagram.com/adhocreferral/?hl=en">Instagram</a>
                                             </li>
                                         </ul>
+                                        <h4>Privacy : </h4>
+                                        <ul>
+                                            <li><a href="/privacy">privacy</a>
+                                            </li>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>

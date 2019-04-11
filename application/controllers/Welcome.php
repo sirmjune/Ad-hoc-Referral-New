@@ -38,6 +38,12 @@ class Welcome extends CI_Controller {
     {
         $this->load->view('contact');
     }
+
+    public function privacy()
+    {
+        $this->load->view('privacy');
+    }
+
     public function health_centers()
     {
         $curl = new Curl();
