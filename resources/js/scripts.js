@@ -371,19 +371,44 @@ function initDomik() {
         $("#message").slideUp(750, function() {
             $("#message").hide();
             $("#submit").attr("disabled", "disabled");
-            $.post(a, {
-                name: $("#name").val(),
-                email: $("#email").val(),
-                phone: $("#phone").val(),
-                subject: $('#subject').val(),
-                comments: $("#comments").val(),
-                verify: $('#verify').val()
-            }, function(a) {
-                document.getElementById("message").innerHTML = a;
-                $("#message").slideDown("slow");
-                $("#submit").removeAttr("disabled");
-                if (null != a.match("success")) $("#contactform").slideDown("slow");
-            });
+            var form_data = $("#contactform").serializeArray();
+            var json_form = {};
+            for (var x = 0; x < Object(form_data).length; x++) {
+                json_form[form_data[x].name] = form_data[x].value;
+            }
+            var object = JSON.stringify(json_form);
+            var success = "Thank you for contacting us. We shall get back " +
+                "you shortly.";
+            var failed = "Sorry, we're unable to send your message.";
+
+            document.getElementById("message").innerHTML = "Sending message ......";
+            $.ajax(
+                {
+                    url: 'https://ad-hoc-referral.com/api/feedback/web-mail/',
+                    type: 'POST',
+                    contentType: "application/json; charset=utf-8",
+                    dataType: "json",
+                    data: object,
+                    crossDomain: true,
+                    success: function (json) {
+                        $("#contactform").slideDown("slow");
+                        if (json){
+                            document.getElementById("message").innerHTML = success;
+                        }else {
+                            document.getElementById("message").innerHTML = failed;
+                        }
+
+                        $("#message").slideDown("slow");
+                        $("#submit").removeAttr("disabled");
+                    },
+                    error: function (xhr, errmsg, err) {
+                        console.log(xhr.status + ": " + xhr.responseText);
+                        document.getElementById("message").innerHTML = failed;
+                        $("#message").slideDown("slow");
+                        $("#submit").removeAttr("disabled");
+                    }
+                }
+            );
         });
         return false;
     });

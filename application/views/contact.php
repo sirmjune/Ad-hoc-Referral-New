@@ -17,6 +17,7 @@
     <link rel="shortcut icon" href="/resources/images/favicon.ico">
     <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
     <script src="/resources/js/ajax-loading.js"></script>
+    <script src="/resources/js/scripts.js"></script>
 </head>
 <body>
 <div class="loader"><i class="fa fa-refresh fa-spin"></i></div>
@@ -39,12 +40,7 @@
                         <li><a href="/ad_med" class="ajax pp">Ad-Med</a></li>
                         <li>
                             <a href="/about" class="ajax pa">About us </a>
-                            <!-- Scroll navigation  -->
-                            <!--                                    <ul>-->
-                            <!--<!--                                        <li><a href="about.html#sec1" class="ajax custom-scroll-link">About us </a></li>-->
-                            <!--<!--                                        <li><a href="about.html#sec3" class="ajax custom-scroll-link">Story </a></li>-->
-                            <!--<!--                                        <li><a href="about.html#sec4" class="ajax custom-scroll-link">Services</a></li>-->
-                            <!--                                    </ul>-->
+
                         </li>
                         <!--                                <li><a href="/health_centers" class="ajax pp">Health Centers</a></li>-->
                         <li><a href="/contact" class="ajax act-link">Contact</a></li>
@@ -102,29 +98,15 @@
                         <!-- contact form -->
                         <section>
                             <div class="contact-form-holder">
-                                <script>
-                                    function send_mail(){
-                                        var loading = $.loading();
-                                        loading.open();
-                                        console.log("here");
-                                        alert("here");
-                                    }
-                                </script>
-                                <a href="javascript:send_mail()" ><span>Send </span> <i
-                                            class="fa fa-long-arrow-right"></i></a>
-                                <div id="contact-form">
-                                    <div id="message"></div>
-                                    <form  name="contactform" id="contactform">
-                                        <input name="name" type="text" id="name" onClick="this.select()" value="Name">
-                                        <input name="email" type="text" id="email" onClick="this.select()"
-                                               value="E-mail">
-                                        <input type="text" name="phone" id="phone" onClick="this.select()"
-                                               value="Phone"/>
-                                        <textarea name="comments" id="comments"
-                                                  onClick="this.select()">Message</textarea>
 
-                                        <a href="javascript:send_mail()" id="submit"><span>Send </span> <i
-                                                    class="fa fa-long-arrow-right"></i></a>
+                                <div id="contact-form">
+                                    <div style="font-size: 18px; font-weight: bold; font-style: italic;" id="message"></div>
+                                    <form  name="contactform" method="post" action="" id="contactform">
+                                        <input name="name" type="text" id="name" onClick="this.select()" value="Name">
+                                        <input name="email" type="text" id="email" onClick="this.select()" value="E-mail">
+                                        <input type="text" name="phone" id="phone" onClick="this.select()" value="Phone"/>
+                                        <textarea name="comments" id="comments" onClick="this.select()">Message</textarea>
+                                        <button type="submit" id="submit"><span>Send </span> <i class="fa fa-long-arrow-right"></i></button>
                                     </form>
                                 </div>
                             </div>
