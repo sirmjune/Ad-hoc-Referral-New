@@ -77,45 +77,43 @@
                         </div>
                         <!--=============== 2 ===============-->
                         <div class="swiper-slide">
-                            <div class="bg" style="background-image:url(/resources/images/bg/2.jpg)"></div>
+                            <div class="bg" style="background-image:url(/resources/images/bg/professional_closer_main.jpg)"></div>
                             <div class="overlay"></div>
                             <div class="slide-title-holder">
                                 <div class="slide-title">
-                                    <h3 class="transition"><a class="ajax transition2" href="#">A you a medical
-                                            professional?</a></h3>
-                                    <h4>Take control of your patients' list with our referral app.</h4>
+<!--                                    <h3 class="transition"><a class="ajax transition2" href="#">-->
+<!--                                            A you a medical professional?</a></h3>-->
+<!--                                    <h4>Take control of your patients' list with our referral app.</h4>-->
                                 </div>
                             </div>
                         </div>
                         <!--=============== 3 ===============-->
                         <div class="swiper-slide">
-                            <div class="bg" style="background-image:url(/resources/images/bg/3.jpg)"></div>
+                            <div class="bg" style="background-image:url(/resources/images/bg/decongest_main.jpg)"></div>
                             <div class="overlay"></div>
                             <div class="slide-title-holder">
                                 <div class="slide-title">
-                                    <h3 class="transition"><a class="ajax transition2" href="#">Streamline reach with
-                                            referrals network-wide. </a></h3>
-                                    <h4>Ut wisi enim ad minim veniam, quis nostrud exerci</h4>
+<!--                                    <h3 class="transition"><a class="ajax transition2" href="#">-->
+<!--                                            Streamline reach with referrals network-wide.</a></h3>-->
+<!--                                    <h4>Ut wisi enim ad minim veniam, quis nostrud exerci</h4>-->
                                 </div>
                             </div>
                         </div>
-                        <!--=============== 4 ===============-->
-                        <div class="swiper-slide">
-                            <div class="bg" style="background-image:url(/resources/images/bg/4.jpg)"></div>
-                            <div class="overlay"></div>
-                            <div class="slide-title-holder">
-                                <div class="slide-title">
-                                    <h3 class="transition"><a class="ajax transition2" href="#">Are you a patient?</a>
-                                    </h3>
-                                    <h4>Are you in need of an expert or you just want quick access to your clinic?</h4>
-                                </div>
-                            </div>
-                        </div>
+<!--                        <!--=============== 4 ===============-->-->
+<!--                        <div class="swiper-slide">-->
+<!--                            <div class="bg" style="background-image:url(/resources/images/bg/4.jpg)"></div>-->
+<!--                            <div class="overlay"></div>-->
+<!--                            <div class="slide-title-holder">-->
+<!--                                <div class="slide-title">-->
+<!--                                    <h3 class="transition"><a class="ajax transition2" href="#">Are you a patient?</a></h3>-->
+<!--                                    <h4>Are you in need of an expert or you just want quick access to your clinic?</h4>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
                     </div>
                     <div class="swiper-nav-holder hor">
                         <a class="swiper-nav arrow-left transition " href="#"><i class="fa fa-long-arrow-left"></i></a>
-                        <a class="swiper-nav  arrow-right transition" href="#"><i
-                                    class="fa fa-long-arrow-right"></i></a>
+                        <a class="swiper-nav  arrow-right transition" href="#"><i class="fa fa-long-arrow-right"></i></a>
                     </div>
                 </div>
                 <div class="pagination"></div>
