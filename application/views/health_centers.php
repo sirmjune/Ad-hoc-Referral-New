@@ -3,7 +3,7 @@
 <head>
     <!--=============== basic  ===============-->
     <meta charset="UTF-8">
-    <title>Domik - Responsive Architecture Template</title>
+    <title>Centers : Ad-hoc Referral</title>
     <meta name="viewport"
           content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="robots" content="index, follow"/>
@@ -71,7 +71,7 @@
                             <?php
                             foreach ($data as $center) {
                                 ?>
-                                <div class="gallery-item houses">
+                                <div style="color: " class="gallery-item houses">
                                     <div class="grid-item-holder">
                                         <div class="box-item">
                                             <a href="/location?id=<?php echo $center->id; ?>" class="ajax">

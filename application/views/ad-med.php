@@ -24,6 +24,7 @@
                 <div class="header-inner">
                     <div class="logo-holder">
                         <a href="/" class="ajax"><img src="/resources/images/logo.png" alt=""></a>
+                        <span style="font-size: 15px; font-weight: bolder; font-style: normal;"> AD HOC REFERRAL</span>
                     </div>
                     <div class="nav-button-holder">
                         <div class="nav-button vis-m"><span></span><span></span><span></span></div>
@@ -36,13 +37,13 @@
                                 <li>
                                     <a href="/about" class="ajax pa">About us </a>
                                     <!-- Scroll navigation  -->
-                                    <ul>
-                                        <li><a href="/about#sec1" class="ajax custom-scroll-link">About us </a></li>
-                                        <li><a href="/about#sec3" class="ajax custom-scroll-link">Story </a></li>
-                                        <li><a href="/about#sec4" class="ajax custom-scroll-link">Services</a></li>
-                                    </ul>
+<!--                                    <ul>-->
+<!--<!--                                        <li><a href="/about#sec1" class="ajax custom-scroll-link">About us </a></li>-->
+<!--<!--                                        <li><a href="/about#sec3" class="ajax custom-scroll-link">Story </a></li>-->
+<!--<!--                                        <li><a href="/about#sec4" class="ajax custom-scroll-link">Services</a></li>-->
+<!--                                    </ul>-->
                                 </li>
-                                <li><a href="/health_centers" class="ajax pp">Health Centers</a></li>
+<!--                                <li><a href="/health_centers" class="ajax pp">Health Centers</a></li>-->
                                 <li><a href="/contact" class="ajax">Contact</a></li>
                             </ul>
                         </nav>
@@ -63,26 +64,26 @@
                                     <!--=============== 1 ===============-->	
                                     <div class="swiper-slide">
                                         <br>
-                                        <div class="bg" style="background-image:url(/resources/images/bg/1.jpg)"></div>
+                                        <div class="bg" style="background-image:url(/resources/images/bg/app_1.jpg)"></div>
                                         <div class="overlay"></div>
-                                        <div class="zoomimage"><img src="/resources/images/bg/1.jpg" class="intense" alt=""><i class="fa fa-expand"></i></div>
+                                        <div class="zoomimage"><img src="/resources/images/bg/app_1.jpg" class="intense" alt=""><i class="fa fa-expand"></i></div>
                                     </div>
                                     <!--=============== 4 ===============-->	
                                     <div class="swiper-slide">
-                                        <div class="bg" style="background-image:url(/resources/images/bg/1.jpg)"></div>
+                                        <div class="bg" style="background-image:url(/resources/images/bg/app_2.jpg)"></div>
                                         <div class="overlay"></div>
-                                        <div class="zoomimage"><img src="/resources/images/bg/1.jpg" class="intense" alt=""><i class="fa fa-expand"></i></div>
+                                        <div class="zoomimage"><img src="/resources/images/bg/app_2.jpg" class="intense" alt=""><i class="fa fa-expand"></i></div>
                                     </div>
                                     <!--=============== 2 ===============-->	
                                     <div class="swiper-slide">
-                                        <div class="bg" style="background-image:url(/resources/images/bg/1.jpg)"></div>
+                                        <div class="bg" style="background-image:url(/resources/images/bg/app_3.jpg)"></div>
                                         <div class="overlay"></div>
-                                        <div class="zoomimage"><img src="/resources/images/bg/1.jpg" class="intense" alt=""><i class="fa fa-expand"></i></div>
+                                        <div class="zoomimage"><img src="/resources/images/bg/app_3.jpg" class="intense" alt=""><i class="fa fa-expand"></i></div>
                                     </div>
                                     <!--=============== 3 ===============-->	
                                     <div class="swiper-slide">
-                                        <div class="bg" style="background-image:url(/resources/images/bg/1.jpg)"></div>
-                                        <div class="zoomimage"><img src="/resources/images/bg/1.jpg" class="intense" alt=""><i class="fa fa-expand"></i></div>
+                                        <div class="bg" style="background-image:url(/resources/images/bg/app_4.jpg)"></div>
+                                        <div class="zoomimage"><img src="/resources/images/bg/app_4.jpg" class="intense" alt=""><i class="fa fa-expand"></i></div>
                                         <div class="overlay"></div>
                                     </div>
                                 </div>
@@ -101,26 +102,30 @@
                                     <h3>Ad-med App</h3>
                                 </div>
                                 <div class="project-details">
-									<h3>Ad Hoc Referral provides a convinient way of booking a medical professional at anytime through it mobile application.</h3>
+									<h3>Ad Hoc Referral provides a convenient way of booking a medical professional at anytime through it mobile application.</h3>
                                     <img src="/resources/images/downloads/google-play-badge.png" class="respimg" alt="">
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.  </p>
-                                    <ul class="descr">
-                                        <li><span>Date :</span> 26.05.2014 </li>
-                                        <li><span>Client :</span>  House Big </li>
-                                        <li><span>Status :</span> Completed </li>
-                                        <li><span>Location : </span>  <a href="https://goo.gl/maps/UzN5m" target="_blank"> Kharkiv Ukraine  </a></li>
-                                    </ul>
+                                    <p>The AD-MED application is an android based mobile application that offers access to
+                                    the company referral platform. It allows users to register as medical experts seeking
+                                    client/patients or register as clients looking for a medical professional.<br>
+                                    With this application both client & expert don't need to leave their homes or clinics respectively
+                                    to complete setting up an appointment.</p>
+<!--                                    <ul class="descr">-->
+<!--                                        <li><span>Date :</span> 26.05.2014 </li>-->
+<!--                                        <li><span>Client :</span>  House Big </li>-->
+<!--                                        <li><span>Status :</span> Completed </li>-->
+<!--                                        <li><span>Location : </span>  <a href="https://goo.gl/maps/UzN5m" target="_blank"> Kharkiv Ukraine  </a></li>-->
+<!--                                    </ul>-->
                                 </div>
-                                <div class="content-nav">
-                                    <ul>
-                                        <li><a href="#" class="ajax"><i class="fa fa-long-arrow-left"></i></a></li>
-                                        <li><span>/</span></li>
-                                        <li><a href="#" class="ajax"><i class="fa fa-long-arrow-right"></i></a></li>
-                                    </ul>
-                                    <div class="p-all">
-                                        <a href="/" class="ajax"><i class="fa fa-th-large"></i></a>
-                                    </div>
-                                </div>
+<!--                                <div class="content-nav">-->
+<!--                                    <ul>-->
+<!--                                        <li><a href="#" class="ajax"><i class="fa fa-long-arrow-left"></i></a></li>-->
+<!--                                        <li><span>/</span></li>-->
+<!--                                        <li><a href="#" class="ajax"><i class="fa fa-long-arrow-right"></i></a></li>-->
+<!--                                    </ul>-->
+<!--                                    <div class="p-all">-->
+<!--                                        <a href="/" class="ajax"><i class="fa fa-th-large"></i></a>-->
+<!--                                    </div>-->
+<!--                                </div>-->
                             </section>
                         </div>
                     </div>
